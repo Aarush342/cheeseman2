@@ -1,0 +1,34 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7b12f; /* Add a background color of yellow */
+}
+
+.container {
+    width: 30%;
+    text-align: center;
+}
+
+.container img {
+    max-width: 70%;
+    height: auto;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 70%;
+    }
+}
